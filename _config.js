@@ -38,5 +38,5 @@ var ancObject = {
 
 //Player
 
-var s = document.createElement("script"); s.id = ancObject.site.name ; s.src = "//play.maphim.net/_anc/_encode.js?r="+Math.random();
+var s = document.createElement("script"); s.id = ancObject.site.name ; s.src = "https://raw.github.com/maphim/ancplayer/master/_encode.js?r="+Math.random();
 document.getElementsByTagName("head")[0].appendChild(s);
